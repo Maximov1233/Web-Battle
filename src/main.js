@@ -1,13 +1,7 @@
 const packages = document.querySelectorAll('.package');
 
-
-// package-rating mt30px; package-title mb20px; package-description mb65px; info mb40px;
-
 packages.forEach((package) => {
     const text = package.childNodes[5],
-        // rating = text.childNodes[1],
-        // title = text.childNodes[3],
-        // info = text.childNodes[7],
         descritption = text.childNodes[5],
         image = package.childNodes[3];
     console.log(package.childNodes);

@@ -26,17 +26,16 @@ body {
         .container {
             max-width: 1110px;
             margin: auto;
-
             .packages-list {
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: center;
 
                 .package {
                     position: relative;
                     background: #0A223D;
                     border-radius: 8px;
                     width: 350px;
-                    // max-height: 535px;
                     margin: 10px 10px;
                     cursor: pointer;
                     transition: all 1s ease;
@@ -62,11 +61,11 @@ body {
                         max-width: 350px;
                         max-height: 250px;
                         overflow: hidden;
-                        transition: all 1s ease;                        
+                        transition: all 1s ease;
                     }
 
                     .overflow {
-                       max-height: 100%;
+                        max-height: 100%;
                     }
 
                     .package-text {
@@ -76,6 +75,7 @@ body {
 
                         .package-rating {
                             margin-bottom: 5px;
+
                             img {
                                 width: 10px;
                             }

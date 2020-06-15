@@ -35,6 +35,9 @@ body .other-packages .container .packages-list {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .other-packages .container .packages-list .package {
